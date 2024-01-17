@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* MENY och NAV */
+/*fältet som fälls ut*/
+nav {
+    background-color: #163020;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+}
+
+nav ul {
+    width: 100%;
+    top: 5em;
+    position: absolute;
+    list-style-type: none;
+    text-align: left;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav li {
+    text-transform: uppercase;
+    padding: 1em 1em 1em 3em;
+    width: 100%;
+}
+
+nav a {
+    color: #EEF0E5;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2em;
+    padding: 0 0 0 0.5em;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* öppna meny-knapp */
+.menu-btn {
+    position: absolute;
+    left: 5em;
+    top: 4em;
+    display: flex;
+    align-items: center;
+    background-color: #304D30;
+    cursor: pointer;
+}
+.open {
+    position: absolute;
+}
+
+.close {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 1em 0 1em 1em;
+    background-color: #ECE7B4;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    height: 10vh;
+    z-index: 10;
+}
+
+.menu-btn:hover {
+    cursor: pointer;
+}
