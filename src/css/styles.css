@@ -59,6 +59,7 @@ nav a:hover {
     background-color: #304D30;
     cursor: pointer;
 }
+
 .open {
     position: absolute;
 }
@@ -77,4 +78,17 @@ nav a:hover {
 
 .menu-btn:hover {
     cursor: pointer;
+}
+
+/* slut på menyn */
+
+/* släng foten i botten av sidan */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
 }
