@@ -92,3 +92,11 @@ body {
 footer {
     margin-top: auto;
 }
+
+@media screen and (min-width: 1025px) {
+
+    body {
+        max-width: 800px;
+        margin: 15vh auto 0 auto;
+    }
+}
