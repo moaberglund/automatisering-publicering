@@ -5,11 +5,19 @@
 
 }
 
+header {
+    background-color: #141414;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+    color: #d9f1e3;
+    text-align: center;
+    height: 10vh;
+}
+
 
 /* MENY och NAV */
 /*fältet som fälls ut*/
 nav {
-    background-color: #b6e6c8;
+    background-color: #d9f1e3;
     position: fixed;
     left: 0;
     top: 0;
@@ -56,7 +64,7 @@ nav a:hover {
     top: 4em;
     display: flex;
     align-items: center;
-    background-color: #b6e6c8;
+    background-color: #000000;
     cursor: pointer;
 }
 
@@ -69,7 +77,7 @@ nav a:hover {
     left: 0;
     top: 0;
     padding: 1em 0 1em 1em;
-    background-color: #ECE7B4;
+    background-color: #000000;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
     width: 100vw;
     height: 10vh;
@@ -81,6 +89,11 @@ nav a:hover {
 }
 
 /* slut på menyn */
+
+
+.main {
+    line-height: 1.8em;
+}
 
 /* släng foten i botten av sidan */
 body {
@@ -95,8 +108,14 @@ footer {
 
 @media screen and (min-width: 1025px) {
 
-    body {
+    .main {
         max-width: 800px;
         margin: 15vh auto 0 auto;
+    }
+
+    footer {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
