@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.11.0"
+    "parcel": "^2.11.0",
+    "sharp": "^0.33.2"
   },
   "browserlist": ">0.5%, last 2 versions, not dead"
 }
