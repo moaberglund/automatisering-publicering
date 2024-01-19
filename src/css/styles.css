@@ -14,7 +14,7 @@ header {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
     color: #d9f1e3;
     text-align: center;
-    height: 10vh;
+    height: 13vh;
 }
 
 
@@ -94,10 +94,20 @@ nav a:hover {
 
 /* slut på menyn */
 
+h1 {
+    padding-bottom: 0.5em;
+}
+
+h2 {
+    padding-bottom: 0.5em;
+}
+
 
 .main {
     line-height: 1.8em;
     padding-bottom: 15vh;
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
 }
 
 /* släng foten i botten av sidan */
@@ -109,6 +119,10 @@ body {
 
 footer {
     margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+    max-width: 400px;
 }
 
 .about-page img {
@@ -122,7 +136,6 @@ footer {
 @media screen and (min-width: 601px) and (max-width: 1024px) {
     .main {
         max-width: 600px;
-        margin: 15vh auto 0 auto;
     }
 
     footer {
@@ -137,7 +150,6 @@ footer {
 
     .main {
         max-width: 800px;
-        margin: 15vh auto 0 auto;
     }
 
     footer {
