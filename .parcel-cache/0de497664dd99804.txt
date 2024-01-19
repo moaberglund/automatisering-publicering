@@ -1,4 +1,4 @@
-7151
+7174
 74C:\Users\Dator\Desktop\Frontend\moment1\node_modules\msgpackr\iterators.js133501265853729148 0
 69C:\Users\Dator\Desktop\Frontend\moment1\node_modules\svgo\lib\svgo.js133501265861249826 0
 95C:\Users\Dator\Desktop\Frontend\moment1\node_modules\lmdb\node_modules\node-addon-api\README.md133501265859418119 0
@@ -46,6 +46,7 @@
 115C:\Users\Dator\Desktop\Frontend\moment1\node_modules\sharp\vendor\8.13.3\win32-x64\include\glib-2.0\glib\genviron.h133117882010000000 0
 50C:\Users\Dator\Desktop\Frontend\moment1\.gitignore133500839542143083 0
 105C:\Users\Dator\Desktop\Frontend\moment1\node_modules\css-select\node_modules\entities\lib\escape.d.ts.map133501265878638644 0
+43C:\Users\Dator\Desktop\Frontend\moment1\src133500839542777182 1
 87C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel\codeframe\src\codeframe.js133501265862485787 0
 91C:\Users\Dator\Desktop\Frontend\moment1\node_modules\svgo\plugins\convertEllipseToCircle.js133501265879249145 0
 88C:\Users\Dator\Desktop\Frontend\moment1\node_modules\type-fest\source\readonly-deep.d.ts133501265863857152 0
@@ -68,14 +69,13 @@
 84C:\Users\Dator\Desktop\Frontend\moment1\node_modules\css-tree\lib\tokenizer\types.js133501265915776134 0
 94C:\Users\Dator\Desktop\Frontend\moment1\node_modules\electron-to-chromium\chromium-versions.js133501265832208593 0
 76C:\Users\Dator\Desktop\Frontend\moment1\node_modules\source-map\package.json133501265830072119 0
-69C:\Users\Dator\Desktop\Frontend\moment1\node_modules\node-abi\LICENSE133501266379248864 0
-78C:\Users\Dator\Desktop\Frontend\moment1\node_modules\prebuild-install\asset.js133501266380078525 0
-44C:\Users\Dator\Desktop\Frontend\moment1\dist133501266946997792 1
-81C:\Users\Dator\Desktop\Frontend\moment1\node_modules\electron-to-chromium\LICENSE133501265830298579 0
 89C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel\config-default\test\.babelrc133501265830683957 0
 84C:\Users\Dator\Desktop\Frontend\moment1\node_modules\weak-lru-cache\rollup.config.js133501265839516860 0
 51C:\Users\Dator\Desktop\Frontend\moment1\src\favicon133500839542747898 1
-43C:\Users\Dator\Desktop\Frontend\moment1\src133500839542777182 1
+69C:\Users\Dator\Desktop\Frontend\moment1\node_modules\node-abi\LICENSE133501266379248864 0
+78C:\Users\Dator\Desktop\Frontend\moment1\node_modules\prebuild-install\asset.js133501266380078525 0
+44C:\Users\Dator\Desktop\Frontend\moment1\dist133501283086299886 1
+81C:\Users\Dator\Desktop\Frontend\moment1\node_modules\electron-to-chromium\LICENSE133501265830298579 0
 78C:\Users\Dator\Desktop\Frontend\moment1\src\favicon\android-chrome-512x512.png133500839542663887 0
 91C:\Users\Dator\Desktop\Frontend\moment1\node_modules\msgpackr\dist\index-no-eval.min.js.map133501265869933234 0
 73C:\Users\Dator\Desktop\Frontend\moment1\node_modules\posthtml-render\dist133501265841255561 1
@@ -95,6 +95,7 @@
 82C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@swc\helpers\esm\_ts_param.js133501265909671926 0
 96C:\Users\Dator\Desktop\Frontend\moment1\node_modules\update-browserslist-db\check-npm-version.js133501265831836674 0
 52C:\Users\Dator\Desktop\Frontend\moment1\node_modules133501266454264914 1
+57C:\Users\Dator\Desktop\Frontend\moment1\sharp.config.json133501281591640917 0
 69C:\Users\Dator\Desktop\Frontend\moment1\src\favicon\favicon-16x16.png133500839542724305 0
 114C:\Users\Dator\Desktop\Frontend\moment1\node_modules\sharp\vendor\8.13.3\win32-x64\include\libgsf-1\gsf\gsf-blob.h133117882010000000 0
 113C:\Users\Dator\Desktop\Frontend\moment1\node_modules\sharp\vendor\8.13.3\win32-x64\include\fontconfig\fcprivate.h133117882010000000 0
@@ -105,10 +106,10 @@
 118C:\Users\Dator\Desktop\Frontend\moment1\node_modules\sharp\vendor\8.13.3\win32-x64\include\glib-2.0\gio\gcredentials.h133117882010000000 0
 57C:\Users\Dator\Desktop\Frontend\moment1\package-lock.json133501266458435675 0
 93C:\Users\Dator\Desktop\Frontend\moment1\node_modules\csso\lib\restructure\3-disjoinRuleset.js133501265879852882 0
+47C:\Users\Dator\Desktop\Frontend\moment1\src\css133500839542563947 1
+60C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel133501266454264914 1
 99C:\Users\Dator\Desktop\Frontend\moment1\node_modules\caniuse-lite\data\features\web-app-manifest.js133501265941621341 0
 90C:\Users\Dator\Desktop\Frontend\moment1\node_modules\source-map\lib\source-map-consumer.js133501265849621384 0
-60C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel133501266454264914 1
-47C:\Users\Dator\Desktop\Frontend\moment1\src\css133500839542563947 1
 85C:\Users\Dator\Desktop\Frontend\moment1\node_modules\node-gyp-build-optional-packages133501265841837015 1
 71C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel\plugin\lib133501265832241470 1
 70C:\Users\Dator\Desktop\Frontend\moment1\node_modules\parcel\lib\cli.js133501265837697369 0
@@ -164,9 +165,9 @@
 83C:\Users\Dator\Desktop\Frontend\moment1\node_modules\css-what\lib\commonjs\parse.js133501265839650047 0
 85C:\Users\Dator\Desktop\Frontend\moment1\node_modules\cosmiconfig\dist\Explorer.js.map133501265848828304 0
 76C:\Users\Dator\Desktop\Frontend\moment1\node_modules\micromatch\package.json133501265834334967 0
-55C:\Users\Dator\Desktop\Frontend\moment1\src\p\berg.html133501264008066573 0
+55C:\Users\Dator\Desktop\Frontend\moment1\src\p\berg.html133501282261768050 0
 92C:\Users\Dator\Desktop\Frontend\moment1\node_modules\lmdb\node_modules\node-addon-api\napi.h133501265850458003 0
-57C:\Users\Dator\Desktop\Frontend\moment1\src\p\bilder.html133501264845767779 0
+57C:\Users\Dator\Desktop\Frontend\moment1\src\p\bilder.html133501282429070337 0
 82C:\Users\Dator\Desktop\Frontend\moment1\node_modules\csso\lib\clean\Declaration.js133501265894491800 0
 79C:\Users\Dator\Desktop\Frontend\moment1\node_modules\utility-types\CHANGELOG.md133501265850458003 0
 114C:\Users\Dator\Desktop\Frontend\moment1\node_modules\sharp\vendor\8.13.3\win32-x64\include\fribidi\fribidi-flags.h133117882010000000 0
@@ -578,7 +579,7 @@
 102C:\Users\Dator\Desktop\Frontend\moment1\node_modules\caniuse-lite\data\features\css-descendant-gtgt.js133501265908816554 0
 103C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel\transformer-react-refresh-wrap\lib\helpers133501265832729773 1
 68C:\Users\Dator\Desktop\Frontend\moment1\node_modules\expand-template133501266382583509 1
-55C:\Users\Dator\Desktop\Frontend\moment1\dist\index.html133501266946822971 0
+55C:\Users\Dator\Desktop\Frontend\moment1\dist\index.html133501283086143667 0
 63C:\Users\Dator\Desktop\Frontend\moment1\node_modules\fill-range133501265835666699 1
 123C:\Users\Dator\Desktop\Frontend\moment1\node_modules\sharp\vendor\8.13.3\win32-x64\include\librsvg-2.0\librsvg\rsvg-cairo.h133117882010000000 0
 75C:\Users\Dator\Desktop\Frontend\moment1\node_modules\minimist\test\short.js133501266384356290 0
@@ -599,6 +600,7 @@
 72C:\Users\Dator\Desktop\Frontend\moment1\node_modules\github-from-package133501266384035513 1
 91C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel\packager-js\lib\DevPackager.js133501265841920926 0
 89C:\Users\Dator\Desktop\Frontend\moment1\node_modules\string_decoder\lib\string_decoder.js133501266380115755 0
+65C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_A4.82c0c867.jpeg133501283060252381 0
 84C:\Users\Dator\Desktop\Frontend\moment1\node_modules\semver\ranges\to-comparators.js133501265878021054 0
 84C:\Users\Dator\Desktop\Frontend\moment1\node_modules\caniuse-lite\data\regions\NO.js133501265930084357 0
 113C:\Users\Dator\Desktop\Frontend\moment1\node_modules\sharp\vendor\8.13.3\win32-x64\include\glib-2.0\glib\gbytes.h133117882010000000 0
@@ -1252,6 +1254,7 @@
 113C:\Users\Dator\Desktop\Frontend\moment1\node_modules\sharp\vendor\8.13.3\win32-x64\include\fribidi\fribidi-bidi.h133117882010000000 0
 113C:\Users\Dator\Desktop\Frontend\moment1\node_modules\sharp\vendor\8.13.3\win32-x64\include\glib-2.0\glib\gspawn.h133117882010000000 0
 105C:\Users\Dator\Desktop\Frontend\moment1\node_modules\sharp\vendor\8.13.3\win32-x64\include\expat_config.h133117882010000000 0
+65C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_A1.2d542bde.jpeg133501283060252381 0
 87C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel\core\src\serializerCore.js133501265906305360 0
 87C:\Users\Dator\Desktop\Frontend\moment1\node_modules\type-fest\source\set-optional.d.ts133501265865549043 0
 88C:\Users\Dator\Desktop\Frontend\moment1\node_modules\css-select\lib\esm\pseudo-selectors133501265898732555 1
@@ -1597,6 +1600,7 @@
 112C:\Users\Dator\Desktop\Frontend\moment1\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_dump.1133501265861156565 0
 76C:\Users\Dator\Desktop\Frontend\moment1\node_modules\csso\lib\replace\atrule133501265897386151 1
 90C:\Users\Dator\Desktop\Frontend\moment1\node_modules\css-tree\lib\syntax\scope\selector.js133501265914795347 0
+65C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_A2.d8526aab.jpeg133501283060252381 0
 80C:\Users\Dator\Desktop\Frontend\moment1\node_modules\svgo\plugins\removeXMLNS.js133501265898652592 0
 103C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel\core\test\PublicMutableBundleGraph.test.js133501265904441249 0
 75C:\Users\Dator\Desktop\Frontend\moment1\node_modules\msgpackr\node-index.js133501265854490772 0
@@ -1789,6 +1793,7 @@
 102C:\Users\Dator\Desktop\Frontend\moment1\node_modules\simple-swizzle\node_modules\is-arrayish\README.md133501266382015813 0
 95C:\Users\Dator\Desktop\Frontend\moment1\node_modules\css-select\lib\pseudo-selectors\pseudos.js133501265858046114 0
 107C:\Users\Dator\Desktop\Frontend\moment1\node_modules\simple-swizzle\node_modules\is-arrayish\yarn-error.log133501266382668075 0
+65C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_B7.e30f1879.jpeg133501283060252381 0
 112C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\parser133501265903001778 1
 72C:\Users\Dator\Desktop\Frontend\moment1\node_modules\simple-get\index.js133501266380078525 0
 69C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel\profiler133501265851347316 1
@@ -2064,8 +2069,8 @@
 101C:\Users\Dator\Desktop\Frontend\moment1\node_modules\sharp\vendor\8.13.3\win32-x64\include\vips\vips8133117882010000000 0
 90C:\Users\Dator\Desktop\Frontend\moment1\node_modules\csso\lib\replace\AttributeSelector.js133501265884634245 0
 114C:\Users\Dator\Desktop\Frontend\moment1\node_modules\sharp\vendor\8.13.3\win32-x64\include\glib-2.0\glib\gmarkup.h133117882010000000 0
-69C:\Users\Dator\Desktop\Frontend\moment1\node_modules\json5\lib\cli.js133501265830732395 0
 106C:\Users\Dator\Desktop\Frontend\moment1\node_modules\sharp\vendor\8.13.3\win32-x64\include\vips\VRegion8.h133117882010000000 0
+69C:\Users\Dator\Desktop\Frontend\moment1\node_modules\json5\lib\cli.js133501265830732395 0
 97C:\Users\Dator\Desktop\Frontend\moment1\node_modules\css-tree\cjs\syntax\node\DeclarationList.cjs133501265870545933 0
 123C:\Users\Dator\Desktop\Frontend\moment1\node_modules\sharp\vendor\8.13.3\win32-x64\include\pango-1.0\pango\pango-coverage.h133117882010000000 0
 92C:\Users\Dator\Desktop\Frontend\moment1\node_modules\caniuse-lite\data\features\css-table.js133501265915652743 0
@@ -2388,6 +2393,7 @@
 73C:\Users\Dator\Desktop\Frontend\moment1\node_modules\sharp\src\metadata.h133501266385154009 0
 80C:\Users\Dator\Desktop\Frontend\moment1\node_modules\css-select\lib\esm\index.js133501265851939849 0
 121C:\Users\Dator\Desktop\Frontend\moment1\node_modules\sharp\vendor\8.13.3\win32-x64\include\glib-2.0\gobject\gparamspecs.h133117882010000000 0
+66C:\Users\Dator\Desktop\Frontend\moment1\dist\portrait.0317bd35.png133501283060252381 0
 117C:\Users\Dator\Desktop\Frontend\moment1\node_modules\sharp\vendor\8.13.3\win32-x64\include\glib-2.0\gobject\gsignal.h133117882010000000 0
 86C:\Users\Dator\Desktop\Frontend\moment1\node_modules\caniuse-lite\data\features\av1.js133501265878698653 0
 117C:\Users\Dator\Desktop\Frontend\moment1\node_modules\css-select\node_modules\dom-serializer\lib\esm\foreignNames.d.ts133501265851316926 0
@@ -2770,6 +2776,7 @@
 72C:\Users\Dator\Desktop\Frontend\moment1\node_modules\lmdb\dict\dict2.txt133501265907226701 0
 120C:\Users\Dator\Desktop\Frontend\moment1\node_modules\sharp\vendor\8.13.3\win32-x64\include\freetype2\freetype\ftdriver.h133117882010000000 0
 78C:\Users\Dator\Desktop\Frontend\moment1\node_modules\msgpackr-extract\index.js133501265839496868 0
+65C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_A5.0f44b6b7.jpeg133501283060252381 0
 120C:\Users\Dator\Desktop\Frontend\moment1\node_modules\sharp\vendor\8.13.3\win32-x64\include\freetype2\freetype\fterrdef.h133117882010000000 0
 102C:\Users\Dator\Desktop\Frontend\moment1\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest2.c133501265893824096 0
 120C:\Users\Dator\Desktop\Frontend\moment1\node_modules\sharp\vendor\8.13.3\win32-x64\include\freetype2\freetype\ftfntfmt.h133117882010000000 0
@@ -2915,6 +2922,7 @@
 85C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@swc\helpers\esm\_ts_metadata.js133501265909419717 0
 68C:\Users\Dator\Desktop\Frontend\moment1\node_modules\deep-extend\lib133501266382688083 1
 101C:\Users\Dator\Desktop\Frontend\moment1\node_modules\css-tree\cjs\tokenizer\char-code-definitions.cjs133501265851740935 0
+74C:\Users\Dator\Desktop\Frontend\moment1\dist\apple-touch-icon.fdae32e5.png133501283060252381 0
 72C:\Users\Dator\Desktop\Frontend\moment1\node_modules\sharp\lib\colour.js133501266386539874 0
 78C:\Users\Dator\Desktop\Frontend\moment1\node_modules\lmdb\dependencies\lz4\lib133501265906102197 1
 75C:\Users\Dator\Desktop\Frontend\moment1\node_modules\sharp\lib\composite.js133501266387101011 0
@@ -2969,6 +2977,7 @@
 75C:\Users\Dator\Desktop\Frontend\moment1\node_modules\css-select\lib\sort.js133501265859303085 0
 90C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel\cache\src\IDBCache.browser.js133501265843824461 0
 80C:\Users\Dator\Desktop\Frontend\moment1\node_modules\semver\ranges\intersects.js133501265858903445 0
+65C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_B6.31c4605e.jpeg133501283060252381 0
 70C:\Users\Dator\Desktop\Frontend\moment1\node_modules\lmdb\package.json133501265905069289 0
 75C:\Users\Dator\Desktop\Frontend\moment1\node_modules\prebuild-install\rc.js133501266383502897 0
 101C:\Users\Dator\Desktop\Frontend\moment1\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb133501265907629730 1
@@ -3863,8 +3872,8 @@
 65C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@swc\helpers133501265921410765 1
 95C:\Users\Dator\Desktop\Frontend\moment1\node_modules\caniuse-lite\data\features\inline-block.js133501265926616459 0
 92C:\Users\Dator\Desktop\Frontend\moment1\node_modules\htmlnano\lib\modules\sortAttributes.mjs133501265901418357 0
-101C:\Users\Dator\Desktop\Frontend\moment1\node_modules\htmlnano\lib\modules\sortAttributesWithLists.cjs133501265863957214 0
 102C:\Users\Dator\Desktop\Frontend\moment1\node_modules\caniuse-lite\data\features\css-scroll-behavior.js133501265914883540 0
+101C:\Users\Dator\Desktop\Frontend\moment1\node_modules\htmlnano\lib\modules\sortAttributesWithLists.cjs133501265863957214 0
 71C:\Users\Dator\Desktop\Frontend\moment1\node_modules\htmlnano\docs\docs133501265894029100 1
 87C:\Users\Dator\Desktop\Frontend\moment1\node_modules\htmlnano\docs\docusaurus.config.js133501265866182069 0
 79C:\Users\Dator\Desktop\Frontend\moment1\node_modules\htmlnano\docs\netlify.toml133501265901874885 0
@@ -4009,6 +4018,7 @@
 80C:\Users\Dator\Desktop\Frontend\moment1\node_modules\emoji-regex\LICENSE-MIT.txt133501265836216154 0
 90C:\Users\Dator\Desktop\Frontend\moment1\node_modules\css-tree\cjs\syntax\config\parser.cjs133501265900827393 0
 80C:\Users\Dator\Desktop\Frontend\moment1\node_modules\cosmiconfig\dist\loaders.js133501265841092451 0
+65C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_B2.0af31968.jpeg133501283060252381 0
 77C:\Users\Dator\Desktop\Frontend\moment1\node_modules\emoji-regex\package.json133501265830298579 0
 74C:\Users\Dator\Desktop\Frontend\moment1\node_modules\emoji-regex\README.md133501265838590256 0
 84C:\Users\Dator\Desktop\Frontend\moment1\node_modules\caniuse-lite\data\regions\GE.js133501265925176522 0
@@ -4089,7 +4099,7 @@
 78C:\Users\Dator\Desktop\Frontend\moment1\node_modules\domutils\lib\traversal.js133501265845781086 0
 80C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel\events\src\index.js133501265844539479 0
 67C:\Users\Dator\Desktop\Frontend\moment1\node_modules\domhandler\lib133501265845432487 1
-54C:\Users\Dator\Desktop\Frontend\moment1\dist\p\om.html133501266946822971 0
+54C:\Users\Dator\Desktop\Frontend\moment1\dist\p\om.html133501283086143667 0
 73C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel\packager-css133501265837548113 1
 71C:\Users\Dator\Desktop\Frontend\moment1\node_modules\domhandler\LICENSE133501265830311951 0
 120C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\match.js133501265898070338 0
@@ -4349,6 +4359,7 @@
 103C:\Users\Dator\Desktop\Frontend\moment1\node_modules\csso\node_modules\css-tree\lib\convertor\create.js133501265906070973 0
 84C:\Users\Dator\Desktop\Frontend\moment1\node_modules\caniuse-lite\data\regions\AL.js133501265853677985 0
 102C:\Users\Dator\Desktop\Frontend\moment1\node_modules\csso\node_modules\css-tree\lib\convertor\index.js133501265911096784 0
+65C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_A2.dc543098.avif133501283056310537 0
 99C:\Users\Dator\Desktop\Frontend\moment1\node_modules\csso\node_modules\css-tree\dist\csstree.esm.js133501265907892441 0
 92C:\Users\Dator\Desktop\Frontend\moment1\node_modules\csso\node_modules\css-tree\dist\data.js133501265908816554 0
 86C:\Users\Dator\Desktop\Frontend\moment1\node_modules\caniuse-lite\data\features\u2f.js133501265936052927 0
@@ -5068,6 +5079,7 @@
 84C:\Users\Dator\Desktop\Frontend\moment1\node_modules\caniuse-lite\data\regions\CL.js133501265901483782 0
 84C:\Users\Dator\Desktop\Frontend\moment1\node_modules\caniuse-lite\data\regions\CM.js133501265902098920 0
 84C:\Users\Dator\Desktop\Frontend\moment1\node_modules\caniuse-lite\data\regions\CN.js133501265902205604 0
+65C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_A1.172539a1.avif133501283056320532 0
 124C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\removeScriptElement.js133501265884764162 0
 72C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel\packager-js133501265859611033 1
 104C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@swc\helpers\cjs\_unsupported_iterable_to_array.cjs133501265898847696 0
@@ -5552,7 +5564,7 @@
 86C:\Users\Dator\Desktop\Frontend\moment1\node_modules\caniuse-lite\data\features\ttf.js133501265935929415 0
 94C:\Users\Dator\Desktop\Frontend\moment1\node_modules\caniuse-lite\data\features\typedarrays.js133501265936038777 0
 101C:\Users\Dator\Desktop\Frontend\moment1\node_modules\caniuse-lite\data\features\unhandledrejection.js133501265936203772 0
-56C:\Users\Dator\Desktop\Frontend\moment1\dist\p\berg.html133501266946842962 0
+56C:\Users\Dator\Desktop\Frontend\moment1\dist\p\berg.html133501283086143667 0
 110C:\Users\Dator\Desktop\Frontend\moment1\node_modules\caniuse-lite\data\features\url-scroll-to-text-fragment.js133501265936253738 0
 111C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\sort.js133501265850424413 0
 86C:\Users\Dator\Desktop\Frontend\moment1\node_modules\caniuse-lite\data\features\url.js133501265936273729 0
@@ -5597,6 +5609,7 @@
 87C:\Users\Dator\Desktop\Frontend\moment1\node_modules\caniuse-lite\data\features\zstd.js133501265948850917 0
 88C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@lmdb\lmdb-win32-x64\node.napi.node133501265863245360 0
 73C:\Users\Dator\Desktop\Frontend\moment1\node_modules\callsites\index.d.ts133501265832241470 0
+65C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_B5.acf713e2.jpeg133501283060252381 0
 71C:\Users\Dator\Desktop\Frontend\moment1\node_modules\callsites\index.js133501265834279516 0
 75C:\Users\Dator\Desktop\Frontend\moment1\node_modules\callsites\package.json133501265830341973 0
 72C:\Users\Dator\Desktop\Frontend\moment1\node_modules\callsites\readme.md133501265838610237 0
@@ -6678,6 +6691,7 @@
 123C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\collapseGroups.js133501265854080047 0
 122C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\convertColors.js133501265857769954 0
 125C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\convertTransform.js133501265860982150 0
+65C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_B1.36116290.jpeg133501283060252381 0
 121C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\inlineStyles.js133501265863857152 0
 120C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\mergeStyles.js133501265865569048 0
 121C:\Users\Dator\Desktop\Frontend\moment1\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\minifyStyles.js133501265866381954 0
@@ -7134,19 +7148,28 @@
 68C:\Users\Dator\Desktop\Frontend\moment1\node_modules\.bin\semver.ps1133501265951640071 0
 62C:\Users\Dator\Desktop\Frontend\moment1\node_modules\.bin\svgo133501265951650073 0
 74C:\Users\Dator\Desktop\Frontend\moment1\dist\apple-touch-icon.8cb91297.png133501266819073597 0
+71C:\Users\Dator\Desktop\Frontend\moment1\dist\favicon-16x16.3d317781.png133501283060252381 0
+71C:\Users\Dator\Desktop\Frontend\moment1\dist\favicon-32x32.a671d983.png133501283060252381 0
 64C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_A1.436eba9d.jpg133501266819083584 0
 65C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_A2.2371837c.avif133501266756913989 0
 65C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_A3.9cd8dcf6.avif133501266756963972 0
+65C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_A3.ba679754.jpeg133501283060252381 0
+65C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_A3.d1ff58e8.avif133501283056497101 0
 65C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_A4.c956147f.avif133501266819633402 0
+65C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_A4.e71eb374.avif133501283056550388 0
+65C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_A5.48c2fde8.avif133501283056310537 0
 64C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_A5.a9f67c22.jpg133501266819480392 0
 64C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_B1.ec0233e8.jpg133501266819121223 0
 64C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_B2.f73a07ca.jpg133501266819053607 0
 65C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_B3.c32e1f02.avif133501266756814037 0
+65C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_B3.fefd8c5a.jpeg133501283060252381 0
 65C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_B4.a7992f12.avif133501266756824035 0
+65C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_B4.bd419af2.jpeg133501283060252381 0
 64C:\Users\Dator\Desktop\Frontend\moment1\dist\IMG_B5.d4459917.jpg133501266819073597 0
 67C:\Users\Dator\Desktop\Frontend\moment1\dist\index.d1c26cb9.css.map133501266946997792 0
 62C:\Users\Dator\Desktop\Frontend\moment1\dist\index.ec00b8f7.js133501266946822971 0
-46C:\Users\Dator\Desktop\Frontend\moment1\dist\p133501266946997792 1
+46C:\Users\Dator\Desktop\Frontend\moment1\dist\p133501283086346277 1
 67C:\Users\Dator\Desktop\Frontend\moment1\dist\portrait.bb4a148d.webp133501266756913989 0
-65C:\Users\Dator\Desktop\Frontend\moment1\dist\p\arbetsprocess.html133501266946873228 0
-58C:\Users\Dator\Desktop\Frontend\moment1\dist\p\bilder.html133501266946655339 0
+67C:\Users\Dator\Desktop\Frontend\moment1\dist\portrait.cfcec967.webp133501283056497101 0
+65C:\Users\Dator\Desktop\Frontend\moment1\dist\p\arbetsprocess.html133501283086143667 0
+58C:\Users\Dator\Desktop\Frontend\moment1\dist\p\bilder.html133501283086143667 0
