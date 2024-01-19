@@ -64,7 +64,13 @@
         <p>Härifrån går jag till sourcekontroll och väljer att skapa ett nytt repo via Github för webbplatsen.</p><br>
         <p>När repot är skapat på Github kan jag sedan ladda upp det till Netlify. Jag loggar in på deras hemsida,
             väljer add new site och import an existing project, väljer Github och sedan det repo som ska laddas upp. De
-            filer som laddas upp till Netlify ska vara från dist mappen efter att man kört npm run build.</p>
+            filer som laddas upp till Netlify ska vara från dist mappen (publish directory) och kommando för publisering
+            anges som npm run build.</p><br>
+        <p>För att optimera bilderna använder jag en picture tagg som sedan inkluderar olika source taggar och i vanlig
+            ordning avslutas med en img tagg som fallback, innehållande alt-attribut. För vidare kontrollering skapar
+            jag även en sharp.config.json fil när jag kan specificera karaktärer för olika bildformat.</p><br>
+        <p>För att kontrollera bakåtkompatibiltet av sidan går jag in i package.json filen och lägger till
+            "browserlist": ">0.5%, last 2 versions, not dead"</p>
 
 
     </div>
