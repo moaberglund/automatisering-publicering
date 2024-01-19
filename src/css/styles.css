@@ -36,7 +36,7 @@ nav {
 
 nav ul {
     width: 100%;
-    top: 5em;
+    top: 6em;
     position: absolute;
     list-style-type: none;
     text-align: left;
@@ -60,7 +60,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #721185;
+    color: #911EA5;
     text-decoration: underline;
     cursor: pointer;
 }
