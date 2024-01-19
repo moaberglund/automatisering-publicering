@@ -25,7 +25,7 @@ header img {
 /* MENY och NAV */
 /*fältet som fälls ut*/
 nav {
-    background-color: #d9f1e3;
+    background-color: #141414;
     position: fixed;
     left: 0;
     top: 0;
@@ -51,16 +51,16 @@ nav li {
 }
 
 nav a {
-    color: #000000;
+    color: #c5c5c5;
     text-decoration: none;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 2em;
     padding: 0 0 0 0.5em;
 }
 
 nav a:hover {
-    color: rgb(36, 36, 36);
+    color: #721185;
     text-decoration: underline;
     cursor: pointer;
 }
@@ -85,10 +85,10 @@ nav a:hover {
     left: 0;
     top: 0;
     padding: 1em 0 1em 1em;
-    background-color: #000000;
+    background-color: #721185;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
     width: 100vw;
-    height: 10vh;
+    height: 15vh;
     z-index: 10;
 }
 
@@ -151,6 +151,14 @@ footer {
 }
 
 @media screen and (min-width: 1025px) {
+
+    nav {
+        width: 30vw;
+        
+    }
+    .close {
+        width: 30vw;
+    }
 
     .main {
         max-width: 800px;
