@@ -68,7 +68,10 @@
             anges som npm run build.</p><br>
         <p>För att optimera bilderna använder jag en picture tagg som sedan inkluderar olika source taggar och i vanlig
             ordning avslutas med en img tagg som fallback, innehållande alt-attribut. För vidare kontrollering skapar
-            jag även en sharp.config.json fil när jag kan specificera karaktärer för olika bildformat.</p><br>
+            jag även en sharp.config.json fil när jag kan specificera karaktärer för olika bildformat.</p>
+        <p>Jag stötte på en hel del problem med bilderna då min filändelse hade stora bokstäver. Detta funkade inte. Så
+            jag fick lov att byta alla filändelser till små bokstäver, både i alla HTML filer, samt själva filerna som
+            låg i mappen för media.</p><br>
         <p>För att kontrollera bakåtkompatibiltet av sidan går jag in i package.json filen och lägger till
             "browserlist": ">0.5%, last 2 versions, not dead"</p>
 
