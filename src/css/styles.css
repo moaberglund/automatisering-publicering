@@ -16,6 +16,10 @@ header {
     text-align: center;
     height: 13vh;
 }
+header img {
+    display: block;
+    margin: 1em auto 1em auto;
+}
 
 
 /* MENY och NAV */
