@@ -17,7 +17,7 @@ function toggleMenu() {
     let style = window.getComputedStyle(navMenuEl);
 
     //ändra mellan none/block beroende på
-    if(style.display === "none") {
+    if (style.display === "none") {
         navMenuEl.style.display = "block";
     } else {
         navMenuEl.style.display = "none";
@@ -34,7 +34,7 @@ let courseList = courses;
 
 const tableEl = document.getElementById("kurser");
 courseList.forEach((item) => {
-    tableEl.innerHTML += `<tr><th>${ item.code }</th> <th>${ item.coursename }</th><th>${ item.progression }</th></tr>`
+    tableEl.innerHTML += `<tr><th class="kursnummer">${item.code}</th> <th class="kursnamn">${item.coursename}</th><th class="kursprogression">${item.progression}</th></tr>`
 })
 
 
