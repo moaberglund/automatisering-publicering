@@ -25,16 +25,37 @@ function toggleMenu() {
 
 }
 
-//MOMENT 2
+//   MOMENT 2
 
-import { courses, getCourseID, getCourseName, getProgression } from './courses.js'
+const url = "https://dahlgren.miun.se/ramschema_ht23.php";
+async function fetchAPI() {
+    try {
+        const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error(`HTTP Error! Status: ${response.status}`);
+        }
+        const data = await response.json();
+        return data;
+    }
+    catch (error) {
+        document.getElementById("error").innerHTML = "<p>Något gick fel...</p>"
+    }
 
-let courseList = courses;
+}
 
-const tableEl = document.getElementById("kurser");
-courseList.forEach((item) => {
-    tableEl.innerHTML += `<tr><td class="kursnummer">${item.code}</td> <td class="kursnamn">${item.coursename}</td><td class="kursprogression">${item.progression}</td></tr>`
-})
+async function displayData() {
+    let data = await fetchAPI();
+    const tableList = document.getElementById("kurser");
+    data.forEach((item) => {
+        tableList.innerHTML += `<tr><td class="kursnummer">${item.code}</td> <td class="kursnamn">${item.coursename}</td><td class="kursprogression">${item.progression}</td></tr>`
+    })
+    
+
+}
+
+displayData();
+
+
 
 //element för soreteringen
 let kursKod = document.getElementById("titel-kurskod");
