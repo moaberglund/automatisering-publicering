@@ -29,14 +29,37 @@ function toggleMenu() {
 
 import { courses, getCourseID, getCourseName, getProgression } from './courses.js'
 
-
 let courseList = courses;
 
 const tableEl = document.getElementById("kurser");
 courseList.forEach((item) => {
-    tableEl.innerHTML += `<tr><th class="kursnummer">${item.code}</th> <th class="kursnamn">${item.coursename}</th><th class="kursprogression">${item.progression}</th></tr>`
+    tableEl.innerHTML += `<tr><td class="kursnummer">${item.code}</td> <td class="kursnamn">${item.coursename}</td><td class="kursprogression">${item.progression}</td></tr>`
 })
 
+//element för soreteringen
+let kursKod = document.getElementById("titel-kurskod");
+let kursNamn = document.getElementById("titel-kursnamn");
+let kursProg = document.getElementById("titel-progression");
 
+//lyssnare
+kursKod.addEventListener("click", sortCode);
+kursNamn.addEventListener("click", sortName);
+kursProg.addEventListener("click", sortProg);
+
+//funktioner för sortering
+
+function sortCode() {
+
+}
+
+function sortName() {
+    
+    courseList.sort((a, b) => (a.coursename > b.coursename) ? 1 : -1);
+
+}
+
+function sortProg() {
+
+}
 
 
