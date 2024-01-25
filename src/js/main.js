@@ -49,13 +49,10 @@ async function displayData() {
     data.forEach((item) => {
         tableList.innerHTML += `<tr><td class="kursnummer">${item.code}</td> <td class="kursnamn">${item.coursename}</td><td class="kursprogression">${item.progression}</td></tr>`
     })
-    
+
 
 }
-
 displayData();
-
-
 
 //element för soreteringen
 let kursKod = document.getElementById("titel-kurskod");
@@ -68,18 +65,28 @@ kursNamn.addEventListener("click", sortName);
 kursProg.addEventListener("click", sortProg);
 
 //funktioner för sortering
-
 function sortCode() {
 
 }
 
-function sortName() {
-    
-    courseList.sort((a, b) => (a.coursename > b.coursename) ? 1 : -1);
-
+async function sortName() {
+    let data = await fetchAPI();
+    const tableList = document.getElementById("kurser");
+    tableList.innerHTML = "";
+    data.sort((a, b) => (a.coursename > b.coursename) ? 1 : -1);
+    data.forEach((item) => {
+        tableList.innerHTML += `<tr><td class="kursnummer">${item.code}</td> <td class="kursnamn">${item.coursename}</td><td class="kursprogression">${item.progression}</td></tr>`
+    })
 }
 
-function sortProg() {
+async function sortProg() {
+    let data = await fetchAPI();
+    const tableList = document.getElementById("kurser");
+    tableList.innerHTML = "";
+    data.sort((a, b) => (a.progression > b.progression) ? 1 : -1);
+    data.forEach((item) => {
+        tableList.innerHTML += `<tr><td class="kursnummer">${item.code}</td> <td class="kursnamn">${item.coursename}</td><td class="kursprogression">${item.progression}</td></tr>`
+    })
 
 }
 
