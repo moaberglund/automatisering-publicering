@@ -102,6 +102,8 @@ async function sortProg() {
 }
 
 //funktion för sök
+
+
 async function searchFunction() {
     //hämta data
     let data = await fetchAPI();
@@ -116,6 +118,15 @@ async function searchFunction() {
         return searchCode.includes(searchX) || searchName.includes(searchX);
     });
 
-    displayData(filterData);
+    displayFilteredData(filterData);
 }
 
+function displayFilteredData(filteredData) {
+    const tableList = document.getElementById("kurser");
+    tableList.innerHTML = "";
+
+    // Visa resultaten som vanligt
+    filteredData.forEach((item) => {
+        tableList.innerHTML += `<tr><td class="kursnummer">${item.code}</td> <td class="kursnamn">${item.coursename}</td><td class="kursprogression">${item.progression}</td></tr>`;
+    });
+}
