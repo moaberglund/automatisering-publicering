@@ -65,8 +65,14 @@ kursNamn.addEventListener("click", sortName);
 kursProg.addEventListener("click", sortProg);
 
 //funktioner för sortering
-function sortCode() {
-
+async function sortCode() {
+    let data = await fetchAPI();
+    const tableList = document.getElementById("kurser");
+    tableList.innerHTML = "";
+    data.sort((a, b) => (a.code > b.code) ? 1 : -1);
+    data.forEach((item) => {
+        tableList.innerHTML += `<tr><td class="kursnummer">${item.code}</td> <td class="kursnamn">${item.coursename}</td><td class="kursprogression">${item.progression}</td></tr>`
+    })
 }
 
 async function sortName() {
