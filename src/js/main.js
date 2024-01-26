@@ -28,6 +28,7 @@ function toggleMenu() {
 //   MOMENT 2
 
 const url = "https://dahlgren.miun.se/ramschema_ht23.php";
+//hämta data
 async function fetchAPI() {
     try {
         const response = await fetch(url);
@@ -42,7 +43,7 @@ async function fetchAPI() {
     }
 
 }
-
+//läs ut data
 async function displayData() {
     let data = await fetchAPI();
     const tableList = document.getElementById("kurser");
@@ -50,21 +51,24 @@ async function displayData() {
         tableList.innerHTML += `<tr><td class="kursnummer">${item.code}</td> <td class="kursnamn">${item.coursename}</td><td class="kursprogression">${item.progression}</td></tr>`
     })
 
-
 }
+//anropa funktion
 displayData();
 
-//element för soreteringen
-let kursKod = document.getElementById("titel-kurskod");
-let kursNamn = document.getElementById("titel-kursnamn");
-let kursProg = document.getElementById("titel-progression");
+//element
+const kursKod = document.getElementById("titel-kurskod");
+const kursNamn = document.getElementById("titel-kursnamn");
+const kursProg = document.getElementById("titel-progression");
+const searchInput = document.getElementById("search-input");
 
 //lyssnare
 kursKod.addEventListener("click", sortCode);
 kursNamn.addEventListener("click", sortName);
 kursProg.addEventListener("click", sortProg);
+searchInput.addEventListener("input", searchFunction);
 
 //funktioner för sortering
+//kurskod
 async function sortCode() {
     let data = await fetchAPI();
     const tableList = document.getElementById("kurser");
@@ -74,7 +78,7 @@ async function sortCode() {
         tableList.innerHTML += `<tr><td class="kursnummer">${item.code}</td> <td class="kursnamn">${item.coursename}</td><td class="kursprogression">${item.progression}</td></tr>`
     })
 }
-
+//kursnamn
 async function sortName() {
     let data = await fetchAPI();
     const tableList = document.getElementById("kurser");
@@ -84,7 +88,7 @@ async function sortName() {
         tableList.innerHTML += `<tr><td class="kursnummer">${item.code}</td> <td class="kursnamn">${item.coursename}</td><td class="kursprogression">${item.progression}</td></tr>`
     })
 }
-
+//kursprogression
 async function sortProg() {
     let data = await fetchAPI();
     const tableList = document.getElementById("kurser");
@@ -96,4 +100,19 @@ async function sortProg() {
 
 }
 
+//funktion för sök
+async function searchFunction() {
+    let data = await fetchAPI();
 
+    //ta bort ev mellanslag samt ändra till små bokstäver
+    const searchX = searchInput.value.trim().toLowerCase();
+
+    const filterData = data.filter((item) => {
+        const searchCode = item.code.toLowerCase();
+        const searchName = item.coursename.toLowerCase();
+
+        return searchCode.includes(searchX) || searchName.includes(searchX)
+    });
+
+    displayData(filterData);
+}

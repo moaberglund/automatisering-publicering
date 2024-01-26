@@ -18,6 +18,7 @@ header {
 }
 
 header img {
+    max-width: 200px;
     display: block;
     margin: 1em auto 2em auto;
 }
@@ -148,6 +149,9 @@ footer {
 .courses-page td {
     font-size: 16px;
     font-weight: 500;
+}
+.kursnummer {
+    text-transform: uppercase;
 }
 
 .kursnamn {
