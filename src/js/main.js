@@ -47,6 +47,7 @@ async function fetchAPI() {
 async function displayData() {
     let data = await fetchAPI();
     const tableList = document.getElementById("kurser");
+    tableList.innerHTML = "";
     data.forEach((item) => {
         tableList.innerHTML += `<tr><td class="kursnummer">${item.code}</td> <td class="kursnamn">${item.coursename}</td><td class="kursprogression">${item.progression}</td></tr>`
     })
@@ -102,17 +103,19 @@ async function sortProg() {
 
 //funktion för sök
 async function searchFunction() {
+    //hämta data
     let data = await fetchAPI();
 
     //ta bort ev mellanslag samt ändra till små bokstäver
-    const searchX = searchInput.value.trim().toLowerCase();
+    let searchX = searchInput.value.trim().toLowerCase();
 
     const filterData = data.filter((item) => {
         const searchCode = item.code.toLowerCase();
         const searchName = item.coursename.toLowerCase();
 
-        return searchCode.includes(searchX) || searchName.includes(searchX)
+        return searchCode.includes(searchX) || searchName.includes(searchX);
     });
 
     displayData(filterData);
 }
+
